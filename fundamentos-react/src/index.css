@@ -4,6 +4,7 @@ body {
     background-color: #4f5e9e;
     color: #FFF;
     text-align: center;
+    font-size: 1.4rem;
 
 }
 
@@ -13,5 +14,4 @@ h1, h2, h3 {
 
 h2, h3 {
     margin: 0;
-    font-weight: 200;
 }
