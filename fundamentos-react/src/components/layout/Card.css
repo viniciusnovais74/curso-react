@@ -1,0 +1,27 @@
+.Card {
+
+    background-color: red;
+    border-radius: 10px;
+    overflow: hidden;
+    border: 3px solid red;
+    margin: 10px;
+}
+
+.Card .Title {
+
+    justify-content: center;
+    display: flex;
+    padding: 10px;
+    font-family: 'Imperial Script', cursive;
+    font-size: 50px;
+
+}
+
+.Card .Content {
+
+    text-align: justify;
+    background: #FFF;
+    color: #000;
+    padding: 20px;
+
+}
