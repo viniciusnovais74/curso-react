@@ -2,6 +2,9 @@ import React from "react";
 import './App.css'
 import './index.css';
 import Card from './components/layout/Card';
+import ParouImpar from "./components/condicional/ParouImpar";
+import ListaAluos from "./components/repetição/ListaAluos";
+import TableAl from './components/repetição/ProcutList';
 import Family from "./components/basic/Family";
 import FamilyMembers from "./components/basic/FamilyMembers";
 import First from './components/basic/First';
@@ -36,9 +39,29 @@ export default () => {
 
 
                 <Card titulo="#05 Componentes com Filos" color="#f37736" >
-                <FamilyMembers nome='Pedro' tipo={propriedadesMembros.tipo}/>
-            <FamilyMembers nome='Ana' {...propriedadesMembros}/>
-            <FamilyMembers nome='Guilherme' tipo='Oliveira'/>
+
+                    <Family tipo='Novais'>
+                        <FamilyMembers genero="M" nome="Marcos" />
+                        <FamilyMembers nome='Ana' />
+                    </Family>
+
+                </Card>
+
+                <Card titulo="#06 Repetição" color="#99554B" >
+
+                    <ListaAluos />
+
+                </Card>
+
+                <Card titulo="#07 Repetição - Exercicios" color=" #1C4046" >
+
+                    <TableAl></TableAl>
+
+                </Card>
+
+                <Card titulo="#08 Renderização Condicional" color=" #1C4046" >
+
+                    <ParouImpar></ParouImpar>
 
                 </Card>
 

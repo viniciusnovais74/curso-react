@@ -1,5 +1,9 @@
-import React from "react";
+import React from 'react';
 
 export default propriedadesMembros => {
-    return <div>{propriedadesMembros.nome} <strong>{propriedadesMembros.tipo}</strong></div>
+console.log(propriedadesMembros.genero);
+    const gener = propriedadesMembros.genero === 'M' ? "Homem":"Mulher"
+
+    return <div>{propriedadesMembros.nome} <strong>{propriedadesMembros.tipo}</strong> Sexo: {gener} </div>
+
 }
