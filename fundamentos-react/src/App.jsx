@@ -11,6 +11,11 @@ import First from './components/basic/First';
 import WithParams from './components/basic/Comparams';
 import Fragment from './components/basic/Fragment';
 import Random from "./components/basic/Random";
+import UserInfo from "./components/condicional/UserInfo";
+import DiretaPai from "./components/comunicação/DiretaPai";
+import DiretaFilho from "./components/comunicação/DiretaFilho";
+import IndiretaPai from "./components/comunicação/IndiretaPai";
+import Input from "./components/forms/Input";
 
 export default () => {
 
@@ -61,8 +66,30 @@ export default () => {
 
                 <Card titulo="#08 Renderização Condicional" color=" #1C4046" >
 
-                    <ParouImpar></ParouImpar>
+                    <ParouImpar numero='20'></ParouImpar>
+                    <UserInfo usuario={{ nome: 'Fernando' }} />
+                    <UserInfo usuario={{ nome: 'F' }} />
+                    <UserInfo usuario={{ Email: 'Fernando' }} />
 
+                </Card>
+
+                <Card titulo="#09 Renderização Condicional" color=" #1C4046" >
+                    <DiretaPai>
+                        <DiretaFilho>
+                        </DiretaFilho>
+                    </DiretaPai>
+                </Card>
+
+
+                <Card titulo="#10 Componente com Estadod" color=" #1C4046" >
+                    <IndiretaPai>
+                        <DiretaFilho>
+                        </DiretaFilho>
+                    </IndiretaPai>
+                </Card>
+
+                <Card titulo="#11 Componente Controlado" color=" #1C4046" >
+                    <Input></Input>
                 </Card>
 
             </div>
