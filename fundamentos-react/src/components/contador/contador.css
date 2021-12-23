@@ -1,0 +1,19 @@
+.Contador {
+    border: 1px solid black;
+    padding: 10px;
+}
+
+.Contador h2 {
+    text-align: center;
+    font-family: 'Oswald', sans-serif;
+}
+
+.Contador button {
+    margin: 15px;
+    height: 50px;
+    width: 50px;
+    border-radius: 50%;
+    background-color: #1499D3;
+    color: #fff;
+    font-size: 1.4rem;
+}

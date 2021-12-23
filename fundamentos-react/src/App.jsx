@@ -1,6 +1,7 @@
 import React from "react";
 import './App.css'
 import './index.css';
+import Contador from "./components/contador/Contador";
 import Card from './components/layout/Card';
 import ParouImpar from "./components/condicional/ParouImpar";
 import ListaAluos from "./components/repetição/ListaAluos";
@@ -16,6 +17,7 @@ import DiretaPai from "./components/comunicação/DiretaPai";
 import DiretaFilho from "./components/comunicação/DiretaFilho";
 import IndiretaPai from "./components/comunicação/IndiretaPai";
 import Input from "./components/forms/Input";
+import Mega from "./components/mega/mega";
 
 export default () => {
 
@@ -90,6 +92,17 @@ export default () => {
 
                 <Card titulo="#11 Componente Controlado" color=" #1C4046" >
                     <Input></Input>
+                </Card>
+
+                <Card titulo="#12 Contador" color=" #1C4046" >
+            
+            <Contador numeroInicil={10}></Contador>
+            
+                </Card>
+
+                <Card titulo="#12 Contador" color=" #1C4046" >
+            
+<Mega/>            
                 </Card>
 
             </div>
