@@ -8,7 +8,7 @@
     }
     
   </style>
-  <li><a href="./fundamentos-react">Fundamentos <strong>React</strong></a></li><span><=-Click Here</span>
-  <li><a href="navegacao">Navegação com <b>React Router</b></a></li><span><=-Click Here</span>
-  <li><a href="calculadora">Projeto Calculadora usando o <b>React</b></a></li><span><=-Click Here</span>
-<li><a href="hooks"><b>React Hooks</b></li></a></ul><span><=-Click Here</span>
+  <li><a href="./fundamentos-react">Fundamentos <strong>React</strong></a></li>
+  <li><a href="navegacao">Navegação com <b>React Router</b></a></li><span>
+  <li><a href="calculadora">Projeto Calculadora usando o <b>React</b></a></li>
+<li><a href="hooks"><b>React Hooks</b></li></a></ul><span>
